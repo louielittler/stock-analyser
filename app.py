@@ -28,7 +28,9 @@ yfinance is not execution-grade data. """
 
 from future import annotations
 
-import streamlit as st import pandas as pd import numpy as np
+import streamlit as st
+import pandas as pd
+import numpy as np
 
 Optional imports for Live mode + better charts
 
