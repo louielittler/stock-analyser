@@ -32,7 +32,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-Optional imports for Live mode + better charts
+#Optional imports for Live mode + better charts
 
 try: import yfinance as yf except Exception:  # pragma: no cover yf = None
 
