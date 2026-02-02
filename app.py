@@ -31,7 +31,7 @@ try:
     import plotly.graph_objects as go
 except Exception:
     go = None
-
+st.sidebar.write("Plotly graph_objects loaded:", go is not None)
 # -----------------------------
 # App config
 # -----------------------------
